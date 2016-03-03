@@ -21,7 +21,7 @@ namespace MacroResolver
 		}
 
 		public int GetMacro(String propertyName)
-		{			
+		{
 			if (LUT.ContainsKey (propertyName))
 				return int.Parse(LUT[propertyName]);
 			throw new ArgumentNullException (String.Format("{0} is not defined", propertyName));
