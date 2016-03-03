@@ -45,5 +45,8 @@ class MainClass
 ## Performance
 * There would be an initial macro resolving time (on Ubuntu 14, with 100 macros, and on an i&-2600, 3.4 GHz CPU with 16 GB memory, it's 100ms), which happens only on the first access to your class (MyMacros in the example above). After that it would be only resolving values from an in-memory dictionary.
 
+## Notes
+* Make sure your application has write access to the running directory (it usually has).
+
 
 
